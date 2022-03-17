@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/voucher-order")
 public class VoucherOrderController {
     @PostMapping("seckill/{id}")
+    //test
     public Result seckillVoucher(@PathVariable("id") Long voucherId) {
         return Result.fail("功能未完成");
     }
